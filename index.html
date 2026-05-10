@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blendi Syla — UI/UX Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-logo">BS<span class="dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-status">
+      <span class="status-dot"></span>Available for work
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#work" class="mobile-link">Work</a></li>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#experience" class="mobile-link">Experience</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="hero-badge reveal">UI/UX Designer · Kosovo</div>
+      <h1 class="hero-title reveal">
+        Designing digital<br />
+        products that <em>feel</em><br />
+        as good as they look.
+      </h1>
+      <p class="hero-sub reveal">
+        I'm <strong>Blendi Syla</strong>, I craft intuitive interfaces and seamless<br class="br-desk" />
+        experiences for products people actually enjoy using.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#work" class="btn btn-primary">View my work</a>
+        <button class="btn btn-ghost" id="copyEmail" data-email="blendsyla31@gmail.com">
+          Copy email
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+        </button>
+      </div>
+      <div class="hero-scroll reveal">
+        <div class="scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+    </div>
+    <div class="hero-marquee">
+      <div class="marquee-track">
+        <span>Product Design</span><span class="sep">✦</span>
+        <span>User Experience</span><span class="sep">✦</span>
+        <span>UI Design</span><span class="sep">✦</span>
+        <span>NoCode Development</span><span class="sep">✦</span>
+        <span>Branding</span><span class="sep">✦</span>
+        <span>Mobile Apps</span><span class="sep">✦</span>
+        <span>Product Design</span><span class="sep">✦</span>
+        <span>User Experience</span><span class="sep">✦</span>
+        <span>UI Design</span><span class="sep">✦</span>
+        <span>NoCode Development</span><span class="sep">✦</span>
+        <span>Branding</span><span class="sep">✦</span>
+        <span>Mobile Apps</span><span class="sep">✦</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="section work" id="work">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Selected Work</span>
+        <h2 class="section-title">Projects I've crafted</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Virtuoso Tech — 2 images: web + app -->
+        <article class="project-card reveal" data-index="0">
+          <div class="project-thumb" style="--c1:#7c3aed;--c2:#4338ca">
+            <div class="slider" data-slider>
+              <div class="slider-track">
+                <div class="slide"><img src="images/virtuoso-web.png" alt="Virtuoso Tech Web" /></div>
+                <div class="slide"><img src="images/virtuoso-app.png" alt="Virtuoso Tech App" /></div>
+              </div>
+              <div class="slider-fallback">Virtuoso Tech</div>
+              <div class="slider-controls">
+                <button class="slider-prev" aria-label="Previous">&#8249;</button>
+                <div class="slider-dots"></div>
+                <button class="slider-next" aria-label="Next">&#8250;</button>
+              </div>
+            </div>
+            <a href="https://dribbble.com/blendisyla" target="_blank" rel="noopener" class="project-arrow" title="View on Dribbble">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </div>
+          <div class="project-meta">
+            <div class="project-info">
+              <h3 class="project-name">Virtuoso Tech</h3>
+              <p class="project-desc">E-commerce platform UI with a full branding system, built end-to-end in Figma for a modern tech brand.</p>
+            </div>
+            <div class="project-tags">
+              <span>UI Design</span>
+              <span>Branding</span>
+              <span>E-commerce</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- StudyBuddy — 3 images -->
+        <article class="project-card reveal" data-index="1">
+          <div class="project-thumb" style="--c1:#0d9488;--c2:#0891b2">
+            <div class="slider" data-slider>
+              <div class="slider-track">
+                <div class="slide"><img src="images/studybuddy-1.png" alt="StudyBuddy" /></div>
+                <div class="slide"><img src="images/studybuddy-2.webp" alt="StudyBuddy" /></div>
+              </div>
+              <div class="slider-fallback">StudyBuddy</div>
+              <div class="slider-controls">
+                <button class="slider-prev" aria-label="Previous">&#8249;</button>
+                <div class="slider-dots"></div>
+                <button class="slider-next" aria-label="Next">&#8250;</button>
+              </div>
+            </div>
+            <a href="https://dribbble.com/blendisyla" target="_blank" rel="noopener" class="project-arrow" title="View on Dribbble">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </div>
+          <div class="project-meta">
+            <div class="project-info">
+              <h3 class="project-name">StudyBuddy</h3>
+              <p class="project-desc">Mobile learning app designed to make online courses more engaging, with animated onboarding and a clean course UI.</p>
+            </div>
+            <div class="project-tags">
+              <span>Mobile App</span>
+              <span>UX Research</span>
+              <span>Animation</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Autoflow — 1 image -->
+        <article class="project-card reveal" data-index="2">
+          <div class="project-thumb" style="--c1:#d97706;--c2:#dc2626">
+            <img src="images/autoflow.webp" alt="Autoflow" class="project-img" onerror="this.style.display='none'" />
+            <div class="project-thumb-label">Autoflow</div>
+            <a href="https://dribbble.com/blendisyla" target="_blank" rel="noopener" class="project-arrow" title="View on Dribbble">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </div>
+          <div class="project-meta">
+            <div class="project-info">
+              <h3 class="project-name">Autoflow</h3>
+              <p class="project-desc">Car rental app built for speed and simplicity. Browse, book, and manage rentals in just a few taps.</p>
+            </div>
+            <div class="project-tags">
+              <span>Mobile App</span>
+              <span>UI Design</span>
+              <span>Logo</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- TaskBuddy — 1 image -->
+        <article class="project-card reveal" data-index="3">
+          <div class="project-thumb" style="--c1:#2563eb;--c2:#7c3aed">
+            <img src="images/taskbuddy.webp" alt="TaskBuddy" class="project-img" onerror="this.style.display='none'" />
+            <div class="project-thumb-label">TaskBuddy</div>
+            <a href="https://dribbble.com/blendisyla" target="_blank" rel="noopener" class="project-arrow" title="View on Dribbble">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </div>
+          <div class="project-meta">
+            <div class="project-info">
+              <h3 class="project-name">TaskBuddy</h3>
+              <p class="project-desc">Productivity app and brand identity, designed to reduce friction in daily task management with a minimal, focused UI.</p>
+            </div>
+            <div class="project-tags">
+              <span>App Design</span>
+              <span>Branding</span>
+              <span>Productivity</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="work-cta reveal">
+        <a href="https://dribbble.com/blendisyla" target="_blank" rel="noopener" class="btn btn-outline">
+          View all on Dribbble
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">About</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-bio reveal">
+          <p>I'm a UI/UX Designer from Kosovo. I've worked across product design, frontend development, and no-code, so I know how things get built and I design with that in mind.</p>
+          <p>Right now I'm at Broadleaf Commerce as RevOps Lead, and I take on freelance design projects on the side. I enjoy working with early-stage founders who have a product idea and need someone to shape how it looks and feels.</p>
+          <p>I'm drawn to mobile apps and anything where good design actually makes a difference to how people use the product.</p>
+          <div class="about-links">
+            <a href="https://dribbble.com/blendisyla" target="_blank" rel="noopener">Dribbble ↗</a>
+            <a href="https://www.linkedin.com/in/blendisyla/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          </div>
+        </div>
+
+        <div class="about-side">
+          <div class="about-photo-wrap reveal">
+            <!-- Replace with your actual photo -->
+            <div class="about-photo-placeholder">
+              <img src="images/photo.jpg" alt="Blendi Syla" class="about-photo" onerror="this.style.display='none'" />
+              <div class="photo-initials">BS</div>
+            </div>
+          </div>
+
+          <div class="skills-card reveal">
+            <h4>What I do</h4>
+            <ul class="skills-list">
+              <li>
+                <div class="skill-icon">◈</div>
+                <div>
+                  <strong>Product Design</strong>
+                  <span>End-to-end from concept to handoff</span>
+                </div>
+              </li>
+              <li>
+                <div class="skill-icon">◈</div>
+                <div>
+                  <strong>User Experience</strong>
+                  <span>Research, flows, and usability</span>
+                </div>
+              </li>
+              <li>
+                <div class="skill-icon">◈</div>
+                <div>
+                  <strong>NoCode Development</strong>
+                  <span>Webflow, Framer, and beyond</span>
+                </div>
+              </li>
+              <li>
+                <div class="skill-icon">◈</div>
+                <div>
+                  <strong>Frontend Development</strong>
+                  <span>HTML, CSS, and enough JS</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="tools-card reveal">
+            <h4>Tools</h4>
+            <div class="tools-list">
+              <span>Figma</span>
+              <span>Framer</span>
+              <span>Webflow</span>
+              <span>Adobe XD</span>
+              <span>Notion</span>
+              <span>Lottie</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Experience</span>
+        <h2 class="section-title">Where I've worked</h2>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-left">
+            <span class="timeline-date">2024 to Present</span>
+          </div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-right">
+            <div class="timeline-header">
+              <h3>RevOps Lead</h3>
+              <span class="timeline-company">Broadleaf Commerce</span>
+            </div>
+            <p class="timeline-desc">Leading revenue operations while also collaborating on product design work across the platform.</p>
+            <div class="timeline-tags">
+              <span>Product Strategy</span>
+              <span>RevOps</span>
+              <span>Workflows</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-left">
+            <span class="timeline-date">2024 to Present</span>
+          </div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-right">
+            <div class="timeline-header">
+              <h3>Lead Generation Specialist</h3>
+              <span class="timeline-company">RevDash</span>
+            </div>
+            <p class="timeline-desc">Driving lead generation efforts and building outreach strategies to grow the sales pipeline.</p>
+            <div class="timeline-tags">
+              <span>Lead Generation</span>
+              <span>Outreach</span>
+              <span>Sales Pipeline</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-left">
+            <span class="timeline-date">2021 to Present</span>
+          </div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-right">
+            <div class="timeline-header">
+              <h3>UI/UX Designer</h3>
+              <span class="timeline-company">Freelance</span>
+            </div>
+            <p class="timeline-desc">Designing digital products for startups and founders across mobile, web, and branding. From initial wireframes to polished, developer-ready Figma files.</p>
+            <div class="timeline-tags">
+              <span>Mobile Design</span>
+              <span>Branding</span>
+              <span>Figma</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-left">
+            <span class="timeline-date">2021 to 2022</span>
+          </div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-right">
+            <div class="timeline-header">
+              <h3>Frontend Developer</h3>
+              <span class="timeline-company">Gjirafa</span>
+            </div>
+            <p class="timeline-desc">Built and maintained frontend interfaces for one of the largest tech platforms in the Western Balkans. That's where I got a real feel for how design translates into code.</p>
+            <div class="timeline-tags">
+              <span>HTML/CSS</span>
+              <span>JavaScript</span>
+              <span>UI Implementation</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="contact-inner reveal">
+        <span class="section-label">Contact</span>
+        <h2 class="contact-title">Got a project in mind?</h2>
+        <p class="contact-sub">I'm open to freelance and full-time work. Feel free to reach out.</p>
+        <div class="contact-actions">
+          <a href="mailto:blendsyla31@gmail.com" class="btn btn-primary btn-large">
+            Contact me
+          </a>
+        </div>
+        <div class="contact-socials">
+          <a href="https://dribbble.com/blendisyla" target="_blank" rel="noopener">Dribbble</a>
+          <a href="https://www.linkedin.com/in/blendisyla/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-logo">BS<span class="dot">.</span></span>
+      <span class="footer-copy">© 2026 Blendi Syla</span>
+      <div class="footer-status">
+        <span class="status-dot"></span>Available for work
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast">Email copied!</div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
